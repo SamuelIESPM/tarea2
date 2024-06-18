@@ -1,0 +1,21 @@
+#GlobalNav {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(7, 10, 83, 0.7);
+}
+
+.pages {
+  border: solid #075351 2px;
+  border-radius: 20px;
+  padding: 5px;
+  text-decoration: none;
+  color: snow;
+  background-color: #510753;
+}
+
+.homeImg {
+  width: 8px;
+  height: 8px;
+}

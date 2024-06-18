@@ -1,0 +1,19 @@
+#contentList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.modalProducts {
+  display: block;
+  overflow: scroll;
+  max-height: 350px;
+}
+
+.modalProduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.inListProduct {
+  grid-column: 1 / 3;
+}

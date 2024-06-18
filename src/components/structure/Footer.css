@@ -1,0 +1,32 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(43, 4, 75);
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  margin: 5px 0;
+  color: #333; /* Color del texto */
+  font-size: 14px; /* Tamaño de la fuente */
+}
+
+footer a {
+  color: #007bff; /* Color de los enlaces */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#links a {
+  padding: 10px;
+}
